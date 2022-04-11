@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Maya's Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #fec89a;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background:#fbf8cc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: center;
+  padding: 10px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #fde4cf;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Hey there!</h2>
+    <P>
+        <img src="Univeristy of washington.jpeg" alt="Universityofwashing.jpeg"
+        style="float:center;width:100px;height:100px">
+        My name is Maya. I am a senior undergraduate student in psychology at the University of Washington, and this is my first time using HTML to build this web page where I share a little about myself.
+    </P>
+
+
+<header>
+  <h3>These are a few of My Favorite Things </h3>
+</header>
+<section>
+    <h2 style="text-align:left;"> These are my top 5 favorite websites</h2>
+
+    <ur>
+        <li>
+            <a href="https://www.figma.com/files/recent?fuid=1005320365941321703"> Figma </a>
+        </li>
+        <li>
+            <a href="https://www.nytimes.com/">nytimes</a>
+        </li>
+        <li>
+            <a href="https://miro.com/app/dashboard/">miro</a>
+        </li>
+        <li>
+            <a href="https://earth.google.com/web/">GoogleEarth</a>
+        </li>
+        <li>
+            <a href="https://www.visualcapitalist.com/">Visualcapitalist</a>
+        </li>
+    </ur>
+  
+  <article>
+    <h2 style="text-align:left;"> Some Pictures that Brought Joy to Me Today</h2>
+    <a href="https://hashtaglegend.com/culture/entertainment/international-cat-day-10-adorable-cats-follow/">
+        <img src="https://hashtaglegend.com/wp-content/uploads/2020/08/squishdelish-cats-on-instagram-to-follow.jpg" title="Cute Cat" style="width:100px;height:100px;margin:20px">
+    </a>
+    <a href="https://www.rd.com/list/cute-kittens/">
+    <img src="https://www.rd.com/wp-content/uploads/2021/04/GettyImages-145679137-scaled-e1619025176434.jpg?w=2515" title="Another Cute Cat" style="width:100px;height:100px;margin:20px">
+    </a>
+    <a href="https://www.womansday.com/life/g32979681/cute-cat-photos/?slide=2">
+       <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-photos-of-cats-excited-1593184777.jpg?crop=1xw:1xh;center,top&resize=768:*" title="More Cute Cats" style="width:100px;height:100px;margin:20px">
+    </a>
+    <a href="https://magazine.washington.edu/feature/time-is-running-out-on-quads-signature-cherry-trees/">
+      <img src="https://magazine.washington.edu/columns_wordpress/wp-content/uploads/2019/07/cherry2k.jpg" title="Cherry Blossoms" style="width:100px;height:100px;margin:20px">
+    </a>
+    <a href="https://www.tripsavvy.com/seattle-space-needle-visitor-information-4140193">
+        <img src="https://www.tripsavvy.com/thmb/8ej54yawASKIGQRP5nGUPAZZVaI=/900x0/filters:no_upscale():max_bytes(150000):strip_icc():gifv():format(webp)/GettyImages-610712690-5c3ba9c646e0fb00018dead8.jpg" title="Seattle" style="width:100px;height:100px;margin:20px"
+        ">
+    </a>
+  </article>
+</section>
+
+<footer>
+    <iframe src="https://giphy.com/embed/KX81UwrGWMbGH0WvWR" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/code-pattern-patterns-KX81UwrGWMbGH0WvWR">via GIPHY</a></p>
+    <style> 
+        #rcorners1 {
+          border-radius: 25px;
+          background: #f1c0e8;
+          padding: 20px; 
+          width: 150px;
+          height: 100px;  
+        }
+        </style>
+    <p id="rcorners1">Thank you for visiting!</p>
+</footer>
+
+</body>
+</html>
+
